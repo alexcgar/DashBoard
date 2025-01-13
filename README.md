@@ -13,9 +13,5 @@ npm run build
 CDN support
 All files included in the @adminkit/core npm package are available over a CDN.
 
-CSS:
-
-<link rel="stylesheet" href="https://unpkg.com/@adminkit/core@latest/dist/css/app.css">
-Javascript:
-
-<script src="https://unpkg.com/@adminkit/core@latest/dist/js/app.js"></script>
+CSS: <link rel="stylesheet" href="https://unpkg.com/@adminkit/core@latest/dist/css/app.css">
+Javascript: <script src="https://unpkg.com/@adminkit/core@latest/dist/js/app.js"></script>
