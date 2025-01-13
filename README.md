@@ -1,6 +1,11 @@
 
-<p align="center">
-  I have been using the AdminKit template to develop a new interface.
+<p align="center"
+
+---
+
+I have been utilizing the AdminKit template to develop a new user interface. Below are the instructions to obtain your own copy of the template and to execute the program.
+
+---
 </p>
 
 
