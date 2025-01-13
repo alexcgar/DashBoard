@@ -28,39 +28,33 @@
 					<div class="d-table-cell align-middle">
 
 						<div class="text-center mt-4">
-							<h1 class="h2">Welcome back!</h1>
+							<h1 class="h2">Bienvenido!</h1>
 							<p class="lead">
-								Sign in to your account to continue
+								Logeate en tu cuenta para continuar
 							</p>
 						</div>
 
-						<div class="card">
-							<div class="card-body">
-								<div class="m-sm-3">
-									<form>
-										<div class="mb-3">
-											<label class="form-label">Email</label>
-											<input class="form-control form-control-lg" type="email" name="email" placeholder="Enter your email" />
-										</div>
-										<div class="mb-3">
-											<label class="form-label">Password</label>
-											<input class="form-control form-control-lg" type="password" name="password" placeholder="Enter your password" />
-										</div>
-										<div>
-											<div class="form-check align-items-center">
-												<input id="customControlInline" type="checkbox" class="form-check-input" value="remember-me" name="remember-me" checked>
-												<label class="form-check-label text-small" for="customControlInline">Remember me</label>
+							<div class="row d-flex justify-content-center align-items-center ">
+								<div class="col-12"></div>
+									<div class="card bg-white my-5 mx-auto" style="border-radius: 1rem; max-width: 500px;">
+										<div class="card-body p-5 w-100 d-flex flex-column">
+											<img src="img/icons/novaLogo.png" alt="Logo" class="mb-1 mx-auto d-block" style="width: 150px;" />
+											<p class="text-white-50 mb-3">¡Por favor ingrese su usuario y contraseña!</p>
+											<p class="text-danger" id="error-message" style="display: none;"></p>
+											<div class="mb-4 w-100">
+												<label for="formControlLgUsuario">Usuario</label>
+												<input type="email" id="formControlLgUsuario" class="form-control form-control-lg" />
 											</div>
+											<div class="mb-4 w-100">
+												<label for="formControlLgContraseña">Contraseña</label>
+												<input type="password" id="formControlLgContraseña" class="form-control form-control-lg" />
+											</div>
+											<button class="btn btn-lg btn-primary" onclick="handleLogin()">Iniciar sesión</button>
+											<hr class="my-4" />
 										</div>
-										<div class="d-grid gap-2 mt-3">
-											<a href="index.html" class="btn btn-lg btn-primary">Sign in</a>
-										</div>
-									</form>
+									</div>
 								</div>
 							</div>
-						</div>
-						<div class="text-center mb-3">
-							Don't have an account? <a href="pages-sign-up.html">Sign up</a>
 						</div>
 					</div>
 				</div>
